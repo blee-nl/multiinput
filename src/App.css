@@ -1,0 +1,131 @@
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	animation: App-logo-spin infinite 20s linear;
+	height: 80px;
+}
+
+.App-header {
+	background-color: #222;
+	height: 150px;
+	padding: 20px;
+	color: white;
+}
+
+.App-title {
+	font-size: 1.5em;
+}
+
+.App-intro {
+	font-size: large;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+/** custom css **/
+
+.inlineBlock {
+	display: inline-block;
+}
+.Select,
+.Select div,
+.Select input,
+.Select span {
+	box-sizing: border-box;
+}
+.Select {
+	position: relative;
+}
+.mutltiInputBox {
+	background-color: #fff;
+	border-color: #d9d9d9 #ccc #b3b3b3;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	color: #333;
+	cursor: default;
+	display: table;
+	border-spacing: 0;
+	border-collapse: separate;
+	height: 36px;
+	outline: none;
+	overflow: auto;
+	position: relative;
+	width: 100%;
+}
+
+.multiInput .itemBox {
+	background-color: rgba(18, 131, 246, 0.13);
+	border-radius: 2px;
+	border: 1px solid rgba(19, 132, 247, 0.31);
+	color: #007eff;
+	display: inline-block;
+	font-size: 0.9em;
+	line-height: 1.4;
+	margin-left: 5px;
+	margin-top: 5px;
+	vertical-align: top;
+}
+.multiInput .removeIcon {
+	cursor: pointer;
+	padding: 1px 5px 3px;
+}
+.multiInput .removeIcon,
+.multiInput .itemVal {
+	display: inline-block;
+	vertical-align: middle;
+}
+.multiInput .itemVal {
+	border-bottom-right-radius: 2px;
+	border-top-right-radius: 2px;
+	cursor: default;
+	padding: 2px 5px;
+}
+.multiInput.has-value .inputSection {
+	margin-left: 5px;
+}
+.inputSection {
+	height: 34px;
+	padding-left: 10px;
+	padding-right: 10px;
+	vertical-align: middle;
+}
+.inputSection > input {
+	width: 100%;
+	background: none transparent;
+	border: 0 none;
+	box-shadow: none;
+	cursor: default;
+	display: inline-block;
+	font-family: inherit;
+	font-size: inherit;
+	margin: 0;
+	outline: none;
+	line-height: 17px;
+	padding: 8px 0 12px;
+	-webkit-appearance: none;
+}
+.inputBtn {
+	padding: 11px 16px;
+	display: block;
+	width: 100%;
+	line-height: 1.3333333;
+	font-size: 14px;
+	height: 40px;
+	background: #266cf6;
+	color: #fff;
+	text-decoration: none;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	text-align: center;
+	white-space: nowrap;
+	margin-top: 5px;
+}
